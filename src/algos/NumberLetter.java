@@ -26,6 +26,6 @@ public class NumberLetter {
         else if (n < 20)
             return TEENS[n - 10];
         else
-            return TENS[n / 10 - 2] + " " + (n % 10 != 0 ? ONES[n % 10]  : "");
+            return TENS[n / 10 - 2] + " " + (n % 10 != 0 ? ONES[n % 10] : "");
     }
 }

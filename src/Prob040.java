@@ -1,6 +1,3 @@
-import java.math.BigInteger;
-import java.util.Arrays;
-
 public class Prob040 {
     public static void main(String[] args) {
         StringBuilder str = new StringBuilder();

@@ -5,7 +5,6 @@ public class Palindrome {
         return str.equals(new StringBuilder(str).reverse().toString());
     }
 
-
     public static int largest_palindrome() {
         int largest = 0;
         int a = 100;

@@ -69,10 +69,6 @@ public class Prime {
         return n;
     }
 
-    public static void main(String[] args) {
-        System.out.println(nextPrime(4));
-    }
-
     public static LinkedList<Integer> primes_till(int n) {
         LinkedList<Integer> pt = new LinkedList<>();
         pt.add(2);

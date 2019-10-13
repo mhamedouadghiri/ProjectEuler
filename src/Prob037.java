@@ -13,7 +13,7 @@ public class Prob037 {
     }
 
     public static boolean is_truncatable(int n) {
-        for (long i = 10; i <= n; i*=10) {
+        for (long i = 10; i <= n; i *= 10) {
             if (!Prime.is_prime(n % (int) i))
                 return false;
         }
